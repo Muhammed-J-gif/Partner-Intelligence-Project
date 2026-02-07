@@ -1,37 +1,86 @@
-### Project Title
-Partner Intelligence Project
-### Project Goal
-To analyze partner website data and generate insights into their web presence, marketing 
-focus, and strategic positioning — using only the keyword data. 
+# **Partner Intelligence Analysis**  
 
+## **📘 What This Project Is About**
+This project looks at partner company websites to understand what they talk about online. By checking which keywords appear on each website, we can figure out their main focus areas—like cybersecurity, cloud services, or managed services.
 
-### Business Question
-How can keyword‑level website data be used to identify partner focus areas, rank partners by relevance and engagement, and surface insights that support sales and marketing teams?
+The goal is to turn keyword data into clear insights that help with marketing, sales, and partner strategy.
 
-### Proposed Solution
-Use keyword presence indicators to:
-- Identify dominant themes across partner websites
-- Profile each partner’s marketing focus
-- Score partners using keyword density and diversity
-- Produce dashboards and reports that summarize trends and rankings
+---
 
-### Background
-The dataset contains partner website domains and binary indicators showing whether specific keywords appear on each site. These keywords represent product areas, technologies, and marketing themes. By analyzing keyword frequency, distribution, and clustering, the organization can understand partner positioning and identify high‑value opportunities.
+## **🎯 Project Goal**
+Use keyword data to understand partner focus areas, spot market trends, and rank partners based on how active and relevant they are.
 
-### My Role
-Use python and analytical methods to extract, aggregate, and interpret keyword data, then translate findings into actionable intelligence for stakeholders.
+---
 
-### Key Stakeholders
-- Skillspire Instructor
+## **❓ Main Question**
+What can keyword data from partner websites tell us about their marketing focus and how strongly they align with key technology areas?
 
-### Final Output
-- Keyword frequency report
-- Partner focus mapping
-- Partner ranking report
-- Market intelligence dashboard with heatmaps, clusters, and trend charts
+---
 
-### Insights & Recommendations
-- Identify which technologies dominate partner messaging
-- Highlight partners with strong alignment to priority product areas
-- Surface emerging themes or underrepresented opportunities
-- Provide ranked partner lists for targeted outreach
+## **ℹ️ Background**
+Each partner website is scanned for specific keywords.  
+Every keyword is marked as:
+- **1** → the keyword appears on the website  
+- **0** → it does not  
+
+There are also two helpful numbers:
+- **Sum** → total keyword hits (how much they talk about these topics)  
+- **Count** → number of different keywords found (how many topics they cover)
+
+This lets us understand both **depth** and **variety** in their messaging.
+
+---
+
+## **👤 My Role**
+- Study the dataset  
+- Analyze keyword patterns  
+- Identify partner focus areas  
+- Build a scoring system  
+- Summarize insights for business use  
+
+---
+
+## **🛠 Project Steps**
+
+### **1. Keyword Frequency Analysis**
+Find out which keywords show up the most across all partner websites.  
+This helps identify big industry trends.
+
+### **2. Partner Keyword Profiling**
+Look at each partner’s top keywords to figure out their main focus area.  
+Examples:
+- Cloud Services  
+- Cybersecurity  
+- Identity & Access  
+- Managed Services  
+
+### **3. Partner Scoring**
+Create a score that ranks partners based on:
+- How many keywords they use  
+- How often those keywords appear  
+
+This helps identify the strongest or most active partners.
+
+### **4. Market Intelligence Dashboard**
+Build visuals that show:
+- Top keywords  
+- Partner clusters  
+- Trend charts  
+- Partner rankings  
+
+---
+
+## **📦 Final Deliverables**
+- Keyword frequency report  
+- Partner focus labels  
+- Partner ranking list  
+- Dashboard with visual insights  
+
+---
+
+## **📈 What This Project Shows**
+- Ability to analyze structured datasets  
+- Skill in identifying patterns and trends  
+- Understanding of business intelligence concepts  
+- Ability to turn raw data into clear insights  
+- Experience creating scoring models and dashboards  
