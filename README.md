@@ -40,36 +40,6 @@ This lets us understand both **depth** and **variety** in their messaging.
 
 ---
 
-## **🛠 Project Steps**
-
-### **1. Keyword Frequency Analysis**
-Find out which keywords show up the most across all partner websites.  
-This helps identify big industry trends.
-
-### **2. Partner Keyword Profiling**
-Look at each partner’s top keywords to figure out their main focus area.  
-Examples:
-- Cloud Services  
-- Cybersecurity  
-- Identity & Access  
-- Managed Services  
-
-### **3. Partner Scoring**
-Create a score that ranks partners based on:
-- How many keywords they use  
-- How often those keywords appear  
-
-This helps identify the strongest or most active partners.
-
-### **4. Market Intelligence Dashboard**
-Build visuals that show:
-- Top keywords  
-- Partner clusters  
-- Trend charts  
-- Partner rankings  
-
----
-
 ## **📦 Final Deliverables**
 - Keyword frequency report  
 - Partner focus labels  
